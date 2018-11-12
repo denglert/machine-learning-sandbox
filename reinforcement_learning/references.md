@@ -8,6 +8,11 @@
 - https://davidsanwald.github.io/2016/09/12/RL-tutorial.html
 
 
+## Lectures
+
+- https://www.youtube.com/watch?v=2pWv7GOvuf0
+- [David Silver: Reinforcement Learning (UCL)](https://www.youtube.com/watch?v=2pWv7GOvuf0)
+
 ## Tutorials
 - https://www.oreilly.com/learning/introduction-to-reinforcement-learning-and-openai-gym
 
