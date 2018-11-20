@@ -8,6 +8,12 @@
 - https://davidsanwald.github.io/2016/09/12/RL-tutorial.html
 
 
+## Lectures
+
+- [David Silver: Reinforcement Learning (UCL)](http://www0.cs.ucl.ac.uk/staff/d.silver/web/Teaching.html) [youtube videos](https://www.youtube.com/watch?v=2pWv7GOvuf0)
+- [UC Berkeley: Deep Reinforcement Learning](http://rail.eecs.berkeley.edu/deeprlcourse/) [youtube
+  videos]()
+
 ## Tutorials
 - https://www.oreilly.com/learning/introduction-to-reinforcement-learning-and-openai-gym
 
