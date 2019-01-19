@@ -26,6 +26,13 @@
 - https://github.com/soumith/ganhacks
 - https://arxiv.org/pdf/1511.05101.pdf
 
+
+## Lectures/talks
+
+- [Ian Goodfellow: Introduction to GANs, NIPS 2016](https://www.youtube.com/watch?v=9JpdAg6uMXs)
+- [Generative Adversarial Networks (GANs) - Computerphile](https://www.youtube.com/watch?v=Sw9r8CL98N0)
+- [Stanford CS231n, Lecture 13 | Generative Models](https://www.youtube.com/watch?v=5WoItGTWV54)
+
 ## Software
 
 - https://github.com/eriklindernoren/Keras-GAN
