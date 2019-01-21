@@ -86,6 +86,7 @@ class Agent:
     def __init__(self, environment, policy, gamma=1.0, initial_pos=(1,1)):
         self.environment = environment
         self.current_state = initial_pos
+        self.time_step = 0
         self.gamma = gamma
         self.recent_reward = 0.0
         self.gain = 0.0
@@ -100,13 +101,20 @@ class Agent:
             new_state, reward = self.environment.update(action)
             self.current_state = new_state
             self.recent_reward = reward
-            self.gain += self.gamma*reward
+            self.gain += ((self.gamma)**(self.time_step))*reward
+            self.time_step += 1 
 
             if doPlot:
                 self.environment.plot(figsize=figsize)
         
     def set_policy(self, policy):
         self.policy = policy
+
+    def reset(self):
+        self.recent_reward = 0.0
+        self.time_step = 0
+        self.gain = 0.0
+
         
     def make_nsteps(self, nsteps):
         
@@ -137,7 +145,7 @@ class Policy:
 
 def random_policy(state):
     action = np.random.randint(0,3)
-    return action
+    return [action]
 
 
 def policy_evaluation(environment, policy, initial_value_function):
@@ -145,7 +153,13 @@ def policy_evaluation(environment, policy, initial_value_function):
     value_function = initial_value_function
     value_function_shape = value_function.shape
     
-    for states in environment.states:
+    for state in environment.states:
+
+        state_x = state[0]
+        state_y = state[1]
+        
+        for 
+        
         value_function 
 
 
