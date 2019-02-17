@@ -1,3 +1,6 @@
 [submodule "courses/coursera_machine_learning"]
 	path = courses/coursera_machine_learning
 	url = https://github.com/denglert/coursera_machine_learning.git
+[submodule "toolbox"]
+	path = toolbox
+	url = git@github.com:denglert/toolbox.git
