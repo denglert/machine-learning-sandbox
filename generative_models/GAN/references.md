@@ -21,11 +21,15 @@
 
 - https://arxiv.org/pdf/1709.00199.pdf
 
+
+## Blog posts
+
+- https://lilianweng.github.io/lil-log/2018/10/13/flow-based-deep-generative-models.html
+
 ## Tips
 
 - https://github.com/soumith/ganhacks
 - https://arxiv.org/pdf/1511.05101.pdf
-
 
 ## Lectures/talks
 
@@ -36,6 +40,7 @@
 ## Software
 
 - https://github.com/eriklindernoren/Keras-GAN
+- https://github.com/eriklindernoren/PyTorch-GAN
 - https://github.com/eriklindernoren/ML-From-Scratch/blob/master/mlfromscratch/unsupervised_learning/generative_adversarial_network.py
 
 
