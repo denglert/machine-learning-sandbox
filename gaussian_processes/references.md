@@ -7,9 +7,15 @@
 - [C. M. Bishop: Pattern Recognition and Machine Learning, Section 6.4, Gaussian processes](https://mitpress.mit.edu/books/machine-learning-1)
 
 
-## Talks/lectures
+## Talks/lectures/schools
 
 - [Gaussian Processes (youtube playlist)](https://www.youtube.com/playlist?list=PLGuGtkvDuWkO7_M29MewGTWteJztrpwNE)
+- Gaussian Process Summer Schools
+    - http://gpss.cc/
+    - [Gaussian Process Summer School 2018 Program](http://gpss.cc/gpss18/program)
+    - [Gaussian Process Summer School 2017 Program](http://gpss.cc/gpss17/program)
+    - [Gaussian Process and Uncertainty Quantification Summer School 2016 Program](http://gpss.cc/gpuqss16/program)
+    - [Workshop on Gaussian Processes for Global Optimization, Sheffield, 2015](http://gpss.cc/gpgo15/)
 - [D. Mackay: Gaussian Process Basics](https://www.youtube.com/watch?v=NegVuuHwa8Q)
 - N. D. Freitas: Machine Learning UBC, CPSC540, 2013
     - [Course website](https://www.cs.ubc.ca/~nando/540-2013/lectures.html)
