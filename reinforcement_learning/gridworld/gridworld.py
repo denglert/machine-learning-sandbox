@@ -56,6 +56,40 @@ class UnknownActionException(Exception):
 #                     }
 
 class Environment:
+    """Gridworld environment class storing the layout of the gridworld and its (stochastic)
+       dynamics.
+
+       Inputs:
+       - agent_position: initial position of the agent
+       - target_position: position of the target 
+       - gridsize: size of the grid 
+       - walls: list of wall blocks 
+       - winds: dictionary containing the wind elements in the format:
+         {position_tuple: Wind(direction_tuple, strength)}
+         Example:
+         { (0,0) : Wind((1,1), 0.2) }
+       - Preward: Look up table containing the probability distribution of the rewards.
+
+         If Preward == "default", the.
+
+       - Ptransition: Look up table containing the probability distribution of the state 
+         transitions.
+         { (state_tuple, action_tuple) : {newstate_tuple1 : probability1, 
+                                          newstate_tuple2 : probability2,
+                                          ...
+                                         },
+            ...
+         }
+
+         If Ptransition == "default", the it is automatically created taking into account the 
+         gridsize, walls and wind elements.
+
+       The environment class stores:
+       - statespace: the environment statespace
+       - agent's position
+       -
+
+       """
     
     def __init__(self,
                  agent_position = (0,0),
@@ -118,26 +152,6 @@ class Environment:
 #       self.actions = np.array( [[[range(4)] for y in range(self.height)]] for x in range(self.width) )
 
         self.agent_position = agent_position
-
-#   def Ptransition_deterministic(self, agent_action, agent_position):
-
-#       if agent_action == RIGHT:
-#           agent_position_candidate = (agent_position[0] + 1, agent_position[1]    )
-#       elif agent_action == DOWN:
-#           agent_position_candidate = (agent_position[0],     agent_position[1] - 1)
-#       elif agent_action == LEFT:
-#           agent_position_candidate = (agent_position[0] - 1, agent_position[1]    )
-#       elif agent_action == UP:
-#           agent_position_candidate = (agent_position[0],     agent_position[1] + 1)
-#       else:
-#           raise UnknownActionException("Unknown action '{}'".format(action))
-
-#       # - Accept new position candidate
-#       if self.is_position_allowed(agent_position_candidate):
-#           return agent_position_candidate
-#       # - Agents stays where it is currently
-#       else:
-#           return agent_position
 
     def is_position_allowed(self, position):
         """Check if a proposed position is allowed."""
